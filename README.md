@@ -1,2 +1,10 @@
-# debian-upgrade-12---13
-Upgrade debian 12 bookworm to debian 13 trixie
+# Upgrade debian 12 bookworm to debian 13 trixie
+
+## run directly
+```bash
+# run with curl 
+bash <(curl -sL https://raw.githubusercontent.com/lucianudrea/debian-upgrade-12---13/refs/heads/main/1213upgrade.sh)
+
+# run with wget
+bash <(wget -qO- https://raw.githubusercontent.com/lucianudrea/debian-upgrade-12---13/refs/heads/main/1213upgrade.sh)
+```
